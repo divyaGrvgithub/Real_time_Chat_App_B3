@@ -17,13 +17,14 @@
   },
   "homepage": "https://github.com/divyaGrvgithub/Real-time-Chat-App-Project#readme",
   "dependencies": {
-    "install": "^0.13.0",
-    "middleware": "^1.0.0"
+    "@socket.io/redis-adapter": "^7.1.0",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "redis": "^4.0.2",
+    "socket.io": "^4.4.1"
   },
   "devDependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^6.8.4",
-    "nodemon": "^2.0.20",
-    "redis": "^4.5.1"
+    "nodemon": "^2.0.2"
   }
 }
