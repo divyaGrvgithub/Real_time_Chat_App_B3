@@ -1,0 +1,29 @@
+{
+  "name": "real-time-chat-app-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyaGrvgithub/Real-time-Chat-App-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divyaGrvgithub/Real-time-Chat-App-Project/issues"
+  },
+  "homepage": "https://github.com/divyaGrvgithub/Real-time-Chat-App-Project#readme",
+  "dependencies": {
+    "install": "^0.13.0",
+    "middleware": "^1.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4",
+    "nodemon": "^2.0.20",
+    "redis": "^4.5.1"
+  }
+}
