@@ -11,7 +11,6 @@ function userJoin(id , username , room){
 function getCurrentUser(id){
     return users.find(user => user.id === id);
 }
-
 //when a user leaves the chat
 function userLeave(id){
     const index = users.findIndex(user => user.id === id);
